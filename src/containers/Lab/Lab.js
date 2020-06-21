@@ -12,7 +12,6 @@ export default function Lab(props) {
 
     const currentProject = project === 'mazeGenerator' ? <MazeGenerator algorithm={algorithm} cellWidth={cellSize} /> : <MazeCreator algorithm={algorithm} cellWidth={cellSize} />;
     
-    console.log(cellSize);
     return (
         <div className={classes.lab}>
             <SideBar 
