@@ -1,0 +1,47 @@
+.heading_primary {
+    font-size: $title-size;
+    font-family: $montserrat-family;
+    display: block;
+    color: $light-grey-1;
+    line-height: 6rem;
+}
+
+.heading_secondary {
+    font-size: $title-size;
+    font-family: $pt-serif-family;
+    display: block;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: $light-grey-1;
+}
+
+.section_title {
+  font-size: 4rem;
+  font-family: $montserrat-family;
+  font-weight: bold;
+  margin-bottom: 2.4rem;
+}
+
+.pt_bold_italic {
+  font-family: $pt-serif-family;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pt_bold_regular {
+  font-family: $pt-serif-family;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.pt_regular {
+  font-family: $pt-serif-family;
+  font-size: 2rem;
+}
+
+.pt_regular_small {
+  font-family: $pt-serif-family;
+  font-size: 1.8rem;
+}
